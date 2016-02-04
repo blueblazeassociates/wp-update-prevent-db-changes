@@ -40,7 +40,7 @@ class prevent_update_table_change {
   public function dbdelta_queries( $queries ) {
     if ( is_array( $queries ) && count( $queries ) ) {
       foreach ( $queries as $key => $query ) {
-        $query = preg_replace( '/option_name\s+varchar\s*\([^\)]*\)/is', 'option_name varchar(255)', $query );
+        $query = preg_replace( '/option_name\s+varchar\s*\([^\)]*\)/is', 'option_name varchar(191)', $query );
         $queries[$key] = $query;
       }
     }
