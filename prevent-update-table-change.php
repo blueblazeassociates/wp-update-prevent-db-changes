@@ -14,6 +14,11 @@ License: GPL v2 or later
  * usually /wp-content/mu-plugins/
  */
 
+/*
+ * For information about why this plugin is needed. See:
+ * https://core.trac.wordpress.org/ticket/13310#comment:38
+ */
+
 new prevent_update_table_change();
 
 /**
