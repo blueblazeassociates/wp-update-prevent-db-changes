@@ -29,11 +29,13 @@ class prevent_update_table_change {
    *
    */
   public function __construct() {
-    add_filter( 'dbdelta_queries', array( $this, 'dbdelta_queries' ));
+    add_filter( 'dbdelta_queries', array( $this, 'dbdelta_queries' ) );
   }
 
   /**
    * @param array $queries
+   *
+   * @return array
    */
   public function dbdelta_queries( $queries ) {
     if ( is_array( $queries ) && count( $queries ) ) {
