@@ -1,0 +1,22 @@
+{
+  "name" : "blueblazeassociates/wp-update-prevent-db-changes",
+  "description" : "Prevent Update Table Change.  Prevent tables from being altered during WP update.",
+  "type" : "wordpress-muplugin",
+  "homepage" : "https://github.com/blueblazeassociates/wp-update-prevent-db-changes",
+  "license" : "GPL-2.0+",
+  "authors" : [{
+    "name" : "John Huebner",
+    "homepage" : "http://www.jayaitch.com/",
+    "role" : "Author/Creator"
+  }, {
+    "name" : "Ed Gifford",
+    "homepage" : "http://www.blueblazeassociates.com",
+    "role" : "Composer-fier",
+    "email" : "egifford@blueblazeassociates.com"
+    }
+  ],
+  "keywords" : [
+  ],
+  "replace": {
+  }
+}
