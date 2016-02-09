@@ -3,7 +3,7 @@
 Plugin Name: Prevent Update Table Change
 Plugin URI:  https://github.com/Hube2/wp-update-prevent-db-changes
 Description: Prevent tables from being altered during WP update
-Version:     0.0.1
+Version:     0.1.0
 Author:      John A. Huebner II
 Author URI:  https://github.com/Hube2
 License:     GPL v2 or later
