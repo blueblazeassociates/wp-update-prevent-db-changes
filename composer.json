@@ -1,22 +1,28 @@
 {
-  "name" : "blueblazeassociates/wp-update-prevent-db-changes",
+  "name"        : "blueblazeassociates/wp-update-prevent-db-changes",
   "description" : "Prevent Update Table Change.  Prevent tables from being altered during WP update.",
-  "type" : "wordpress-muplugin",
-  "homepage" : "https://github.com/blueblazeassociates/wp-update-prevent-db-changes",
-  "license" : "GPL-2.0+",
+  "type"        : "wordpress-muplugin",
+  "homepage"    : "https://github.com/blueblazeassociates/wp-update-prevent-db-changes",
+  "license"     : "GPL-2.0+",
   "authors" : [{
-    "name" : "John A. Huebner II",
-    "homepage" : "https://github.com/Hube2",
-    "role" : "Author/Creator"
-  }, {
-    "name" : "Ed Gifford",
-    "homepage" : "http://www.blueblazeassociates.com",
-    "role" : "Composer-fier",
-    "email" : "egifford@blueblazeassociates.com"
+      "name"     : "John A. Huebner II",
+      "homepage" : "https://github.com/Hube2",
+      "role"     : "Author/Creator"
+    }, {
+      "name"     : "Ed Gifford",
+      "homepage" : "http://www.blueblazeassociates.com",
+      "role"     : "Composer-fier",
+      "email"    : "egifford@blueblazeassociates.com"
     }
   ],
   "keywords" : [
   ],
-  "replace": {
+  "replace" : {
+  },
+  "require" : {
+    "php" : ">=5.6.24" 
+  },
+  "config" : {
+    "php" : "5.6.*"
   }
 }
