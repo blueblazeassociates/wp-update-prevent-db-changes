@@ -1,6 +1,6 @@
 <?php
 /**
- * Blue Blaze Favicons
+ * Prevent Update Table Change
  *
  * @author  Blue Blaze Associates
  * @license GPL-2.0+
